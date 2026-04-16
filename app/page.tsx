@@ -2,71 +2,71 @@ import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 
 const services = [
-  {
-    title: "MVPs & internal tools",
-    description:
-      "Launch high-signal products quickly with structured workflows, custom logic, and a clean user experience.",
-  },
-  {
-    title: "Marketplace builds",
-    description:
-      "Create two-sided platforms with listings, payments, roles, and scalable admin tooling.",
-  },
-  {
-    title: "Automation & integrations",
-    description:
-      "Connect Bubble to the tools your team already uses with APIs, webhooks, and reliable data flows.",
-  },
-];
+{
+  title: "MVPs & internal tools",
+  description:
+  "Launch high-signal products quickly with structured workflows, custom logic, and a clean user experience."
+},
+{
+  title: "Marketplace builds",
+  description:
+  "Create two-sided platforms with listings, payments, roles, and scalable admin tooling."
+},
+{
+  title: "Automation & integrations",
+  description:
+  "Connect Bubble to the tools your team already uses with APIs, webhooks, and reliable data flows."
+}];
+
 
 const process = [
-  {
-    step: "01",
-    title: "Discovery",
-    description:
-      "We align on goals, user journeys, scope, and the fastest path to a production-ready launch.",
-  },
-  {
-    step: "02",
-    title: "Design + build",
-    description:
-      "We translate your concept into polished UI, database structure, and responsive Bubble workflows.",
-  },
-  {
-    step: "03",
-    title: "Launch + iterate",
-    description:
-      "We test, refine, and support your rollout so you can keep improving after launch.",
-  },
-];
+{
+  step: "01",
+  title: "Discovery",
+  description:
+  "We align on goals, user journeys, scope, and the fastest path to a production-ready launch."
+},
+{
+  step: "02",
+  title: "Design + build",
+  description:
+  "We translate your concept into polished UI, database structure, and responsive Bubble workflows."
+},
+{
+  step: "03",
+  title: "Launch + iterate",
+  description:
+  "We test, refine, and support your rollout so you can keep improving after launch."
+}];
+
 
 const testimonials = [
-  {
-    quote:
-      "They helped us turn a rough concept into a polished Bubble app in weeks, not months.",
-    name: "Alex Morgan",
-    title: "Founder, OpsFlow",
-  },
-  {
-    quote:
-      "Communication was clear, timelines were realistic, and the end result felt genuinely premium.",
-    name: "Priya Shah",
-    title: "Product Lead, Northstar Studio",
-  },
-];
+{
+  quote:
+  "They helped us turn a rough concept into a polished Bubble app in weeks, not months.",
+  name: "Alex Morgan",
+  title: "Founder, OpsFlow"
+},
+{
+  quote:
+  "Communication was clear, timelines were realistic, and the end result felt genuinely premium.",
+  name: "Priya Shah",
+  title: "Product Lead, Northstar Studio"
+}];
+
 
 const stats = [
-  { label: "Projects shipped", value: "40+" },
-  { label: "Avg. launch timeline", value: "6 weeks" },
-  { label: "Client retention", value: "92%" },
-];
+{ label: "Projects shipped", value: "40+" },
+{ label: "Avg. launch timeline", value: "6 weeks" },
+{ label: "Client retention", value: "92%" }];
+
 
 const featuredHighlights = [
-  "Product strategy",
-  "Interface design",
-  "Workflow architecture",
-  "QA + launch support",
-];
+"Product strategy",
+"Interface design",
+"Workflow architecture",
+"QA + launch support"];
+
 
 export default function Home() {
   return (
@@ -90,34 +90,23 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <a
-                  href="mailto:hello@pandabubble.dev"
-                  className="inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3.5 text-sm font-semibold text-background transition-all hover:scale-[1.01] hover:bg-foreground/90"
-                >
+                <a href="mailto:hello@pandabubble.dev" className="inline-flex items-center justify-center rounded-full bg-foreground px-6 py-3.5 text-sm font-semibold text-background transition-all hover:scale-[1.01] hover:bg-foreground/90">
                   Book a discovery call
                 </a>
-                <a
-                  href="#services"
-                  className="inline-flex items-center justify-center rounded-full border border-border bg-background px-6 py-3.5 text-sm font-semibold text-foreground shadow-sm transition-colors hover:bg-muted"
-                >
+                <a href="#services" className="inline-flex items-center justify-center rounded-full border border-border bg-background px-6 py-3.5 text-sm font-semibold text-foreground shadow-sm transition-colors hover:bg-muted">
                   See what we build
                 </a>
               </div>
 
               <div className="mt-10 grid gap-4 sm:grid-cols-3">
-                {stats.map((stat) => (
-                  <div
-                    key={stat.label}
-                    className="rounded-2xl border border-border bg-background/80 p-5 shadow-sm backdrop-blur"
-                  >
+                {stats.map((stat) => <div key={stat.label} className="rounded-2xl border border-border bg-background/80 p-5 shadow-sm backdrop-blur">
                     <div className="text-2xl font-semibold tracking-tight text-foreground">
                       {stat.value}
                     </div>
                     <div className="mt-1 text-sm text-muted-foreground">
                       {stat.label}
                     </div>
-                  </div>
-                ))}
+                  </div>)}
               </div>
             </div>
 
@@ -154,41 +143,52 @@ export default function Home() {
                 <div className="mt-4 rounded-2xl border border-white/10 bg-white/5 p-4">
                   <p className="text-sm text-white/60">Included in every engagement</p>
                   <div className="mt-4 flex flex-wrap gap-2">
-                    {featuredHighlights.map((item) => (
-                      <span
-                        key={item}
-                        className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-white/90"
-                      >
+                    {featuredHighlights.map((item) => <span key={item} className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-white/90">
                         {item}
-                      </span>
-                    ))}
+                      </span>)}
                   </div>
                 </div>
 
                 <div className="mt-6 rounded-2xl border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-5">
                   <p className="text-sm text-white/60">Monthly outcome</p>
                   <div className="mt-3 grid grid-cols-3 gap-3">
-                    {[
-                      { label: "Signups", value: "+31%" },
-                      { label: "Conversion", value: "18.4%" },
-                      { label: "NPS", value: "64" },
-                    ].map((item) => (
-                      <div
-                        key={item.label}
-                        className="rounded-xl bg-slate-900/60 p-3 text-center"
-                      >
+                    {[{ label: "Signups", value: "+31%" }, { label: "Conversion", value: "18.4%" }, { label: "NPS", value: "64" }].map((item) => <div key={item.label} className="rounded-xl bg-slate-900/60 p-3 text-center">
                         <div className="text-lg font-semibold">{item.value}</div>
                         <div className="mt-1 text-[11px] uppercase tracking-[0.18em] text-white/45">
                           {item.label}
                         </div>
-                      </div>
-                    ))}
+                      </div>)}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
         <section id="services" className="border-t border-border/60 bg-card/30">
           <div className="mx-auto w-full max-w-6xl px-6 py-16 sm:px-10 lg:px-12 lg:py-24">
@@ -208,11 +208,11 @@ export default function Home() {
             </div>
 
             <div className="mt-10 grid gap-6 md:grid-cols-3">
-              {services.map((service) => (
-                <article
-                  key={service.title}
-                  className="group rounded-3xl border border-border bg-background p-7 shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg"
-                >
+              {services.map((service) =>
+              <article
+                key={service.title}
+                className="group rounded-3xl border border-border bg-background p-7 shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg">
+                
                   <div className="mb-5 inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/10 text-sm font-semibold text-primary">
                     {service.title.slice(0, 2)}
                   </div>
@@ -223,7 +223,7 @@ export default function Home() {
                     {service.description}
                   </p>
                 </article>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -244,11 +244,11 @@ export default function Home() {
             </div>
 
             <div className="mt-10 grid gap-6 lg:grid-cols-3">
-              {process.map((item) => (
-                <article
-                  key={item.step}
-                  className="rounded-3xl border border-border bg-card p-7 shadow-sm"
-                >
+              {process.map((item) =>
+              <article
+                key={item.step}
+                className="rounded-3xl border border-border bg-card p-7 shadow-sm">
+                
                   <p className="text-sm font-semibold uppercase tracking-[0.24em] text-primary">
                     {item.step}
                   </p>
@@ -259,7 +259,7 @@ export default function Home() {
                     {item.description}
                   </p>
                 </article>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -282,15 +282,15 @@ export default function Home() {
             </div>
 
             <div className="mt-10 grid gap-6 md:grid-cols-2">
-              {testimonials.map((testimonial) => (
-                <figure
-                  key={testimonial.name}
-                  className="rounded-3xl border border-border bg-background p-7 shadow-sm"
-                >
+              {testimonials.map((testimonial) =>
+              <figure
+                key={testimonial.name}
+                className="rounded-3xl border border-border bg-background p-7 shadow-sm">
+                
                   <div className="flex gap-1 text-primary">
-                    {"★★★★★".split("").map((star, index) => (
-                      <span key={`${testimonial.name}-${index}`}>{star}</span>
-                    ))}
+                    {"★★★★★".split("").map((star, index) =>
+                  <span key={`${testimonial.name}-${index}`}>{star}</span>
+                  )}
                   </div>
                   <blockquote className="mt-5 text-lg leading-8 tracking-tight">
                     “{testimonial.quote}”
@@ -302,7 +302,7 @@ export default function Home() {
                     </div>
                   </figcaption>
                 </figure>
-              ))}
+              )}
             </div>
           </div>
         </section>
@@ -327,14 +327,14 @@ export default function Home() {
                 <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
                   <a
                     href="mailto:hello@pandabubble.dev"
-                    className="inline-flex items-center justify-center rounded-full bg-background px-6 py-3.5 text-sm font-semibold text-foreground transition-colors hover:bg-background/90"
-                  >
+                    className="inline-flex items-center justify-center rounded-full bg-background px-6 py-3.5 text-sm font-semibold text-foreground transition-colors hover:bg-background/90">
+                    
                     Book a discovery call
                   </a>
                   <a
                     href="#services"
-                    className="inline-flex items-center justify-center rounded-full border border-background/20 px-6 py-3.5 text-sm font-semibold text-background transition-colors hover:bg-background/10"
-                  >
+                    className="inline-flex items-center justify-center rounded-full border border-background/20 px-6 py-3.5 text-sm font-semibold text-background transition-colors hover:bg-background/10">
+                    
                     Explore services
                   </a>
                 </div>
@@ -343,6 +343,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-    </div>
-  );
+    </div>);
+
 }
