@@ -134,8 +134,8 @@ export default function Home() {
                 Use this homepage structure to present your services, build trust, and convert visitors.
               </p>
             </div>
-            <a href="#" className="inline-flex h-11 items-center justify-center rounded-full bg-background px-5 text-sm font-medium text-foreground transition-colors hover:bg-background/90">
-              Book a discovery call
+            <a href={"/login"} className="inline-flex h-11 items-center justify-center rounded-full bg-background px-5 text-sm font-medium text-foreground transition-colors hover:bg-background/90">Sign in
+
             </a>
           </div>
         </section>
