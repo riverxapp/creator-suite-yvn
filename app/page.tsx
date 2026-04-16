@@ -84,8 +84,7 @@ export default function Home() {
               <HeroSection />
 
               <p className="mt-6 max-w-2xl text-base leading-7 text-muted-foreground sm:text-lg">
-                Build fast, polished web experiences for growing development
-                agencies.
+                Build Fast
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
