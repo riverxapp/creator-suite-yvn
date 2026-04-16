@@ -5,9 +5,9 @@ const brandName = "Panda";
 export const Navbar = () => {
   return <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
   <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-6 py-4 sm:px-10 lg:px-12">
-    <a href="#top" className="text-lg font-bold tracking-tight text-foreground">
-      Bubble
-    </a>
+    <a href="#top" className="text-lg font-bold tracking-tight text-foreground">{brandName}
+
+      </a>
     <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">
       <a href="#services" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Services</a>
       <a href="#work" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Work</a>
@@ -21,7 +21,7 @@ export const Navbar = () => {
       <a href="/login" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
         Log in
       </a>
-      <a href="/signup" className="hidden rounded-full border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground sm:inline-flex">
+      <a href="/signup" className={"rounded-full border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground sm:inline-flex"}>
         Sign up
       </a>
       <ThemeToggle />
