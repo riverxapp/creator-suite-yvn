@@ -18,6 +18,12 @@ export const Navbar = () => {
       <a href="#contact" className="hidden rounded-full border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground sm:inline-flex">
         Start a project
       </a>
+      <a href="/login" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
+        Log in
+      </a>
+      <a href="/signup" className="hidden rounded-full border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground sm:inline-flex">
+        Sign up
+      </a>
       <ThemeToggle />
     </div>
   </div>
@@ -27,6 +33,8 @@ export const Navbar = () => {
       <a href="#work" className="whitespace-nowrap text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Work</a>
       <a href="#process" className="whitespace-nowrap text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Process</a>
       <a href="#contact" className="whitespace-nowrap text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Contact</a>
+      <a href="/login" className="whitespace-nowrap text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Log in</a>
+      <a href="/signup" className="whitespace-nowrap rounded-full border border-border px-4 py-1 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground">Sign up</a>
     </div>
   </nav>
 </header>;};
