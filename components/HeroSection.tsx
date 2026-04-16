@@ -16,7 +16,7 @@ const hero = {
 export const HeroSection = () => {
   return (
     <section className={"flex flex-1 flex-col items-center justify-center px-6 py-16 text-center sm:px-10 lg:px-16"}>
-      <h1 className={"max-w-3xl text-[34px] font-bold leading-[1.1] tracking-tight sm:text-[48px] lg:text-[64px]"}>Build fast, polished web experiences for growing development agencies.
+      <h1 className={"max-w-3xl text-[34px] font-bold leading-[1.1] tracking-tight sm:text-[48px] lg:text-[64px]"}>Build Fast
 
       </h1>
       <p className={"mt-6 max-w-2xl text-[15px] leading-relaxed text-muted-foreground sm:text-[16px]"}>We design, develop, and ship conversion-focused websites and product interfaces that help agencies win better clients and move faster.
