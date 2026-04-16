@@ -22,15 +22,15 @@ export const HeroSection = () => {
         <span className={"h-2 w-2 rounded-full bg-emerald-500"} />
         Bubble development agency for modern product teams
       </div>
-      <h1 className={"mt-6 max-w-3xl text-[38px] font-bold leading-[1.05] tracking-tight sm:text-[56px] lg:text-[72px]"}>Build fast, polished web experiences for growing development agencies.</h1>
-      <p className={"mt-6 max-w-2xl text-[16px] leading-relaxed text-muted-foreground sm:text-[18px]"}>We design, build, and launch Bubble-powered websites and web apps that help agencies move faster, impress clients, and ship with confidence.</p>
+      <h1 className={"mt-6 max-w-3xl text-[38px] font-bold leading-[1.05] tracking-tight sm:text-[56px] lg:text-[72px]"}>Build Fast</h1>
+      <p className={"mt-6 max-w-2xl text-[16px] leading-relaxed text-muted-foreground sm:text-[18px]"}>We create polished Bubble experiences for agencies that need to ship faster, look sharper, and deliver real results for clients.</p>
       <div className={"mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start sm:gap-4"}>
         <Button className="h-11 rounded-lg px-6 shadow-sm">Start a Project</Button>
-        <Button variant="outline" className="h-11 rounded-lg px-6">View Our Work</Button>
+        <Button variant="outline" className="h-11 rounded-lg px-6">See Case Studies</Button>
       </div>
       <div className={"mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-muted-foreground lg:justify-start"}>
-        <span>Custom Bubble builds</span>
-        <span>Responsive UI/UX</span>
+        <span>Fast launches</span>
+        <span>Clean handoffs</span>
         <span>API integrations</span>
       </div>
     </div>
