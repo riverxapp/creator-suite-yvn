@@ -14,9 +14,7 @@ const hero = {
 };
 
 export const HeroSection = () => {
-  return <section className={"relative flex flex-1 overflow-hidden px-6 py-16 sm:px-10 lg:px-16 lg:py-24"}>
-  <div className={"absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(59,130,246,0.14),_transparent_45%),radial-gradient(circle_at_bottom_right,_rgba(16,185,129,0.12),_transparent_35%)]"} />
-  <div className={"mx-auto flex w-full max-w-4xl flex-col items-center text-center"}>
+  return <section className={"relative flex flex-1 overflow-hidden px-6 py-16 sm:px-10 lg:px-16 lg:py-24"}><div className={"mx-auto flex w-full max-w-4xl flex-col items-center text-center"}>
     <div className={"inline-flex items-center gap-2 rounded-full border border-border/60 bg-background/70 px-4 py-2 text-sm text-muted-foreground shadow-sm backdrop-blur"}>
       <span className={"h-2 w-2 rounded-full bg-emerald-500"} />
       Bubble development agency for modern product teams
@@ -33,7 +31,9 @@ export const HeroSection = () => {
       <span>API integrations</span>
     </div>
   </div>
-</section>;
+
+
+  </section>;
 
 
 
